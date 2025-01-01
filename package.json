@@ -1,9 +1,15 @@
 {
+"engines":{
+    "node":"20.15.0"
+  },
+
+
   "name": "react-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "vite preview --port $PORT",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
